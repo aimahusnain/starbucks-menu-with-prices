@@ -22,6 +22,7 @@ export default function RootLayout({
 
         {/* favicon */}
         <link rel="shortcut icon" href={config.site.favicon} />
+        
         {/* theme meta */}
         <meta name="theme-name" content="nextplate" />
         <meta name="msapplication-TileColor" content="#000000" />

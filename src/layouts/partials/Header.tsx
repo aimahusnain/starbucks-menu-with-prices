@@ -34,11 +34,11 @@ const Header = ({
 
   return (
     <header
-      className={`header z-30 ${settings.sticky_header && "sticky top-0"}`}
+      className={`bg-white dark:bg-[#18181B]  z-30 ${settings.sticky_header && "sticky top-0"}`}
     >
       <nav className="navbar container">
         {/* logo */}
-        <div className="order-0">
+        <div className="order-0 mt-2 mb-[-15px]">
           <Logo lang={lang} />
         </div>
         {/* navbar toggler */}

@@ -7,6 +7,7 @@ import { Menu } from "@/lib/menuItems";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import HeroSkeleton from './HeroSkeleton';
 
 const convertNameToLink = (name: string) => {
   return name
@@ -32,8 +33,9 @@ const shuffleArray = <T,>(array: T[]): T[] => {
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedProduct, setSelectedProduct] = useState(
-    Menu[0].items[0].subItems[0].products[0]
+    Menu[0].items[0].subItems[0].products[0],
   );
+  const [isLoading, setIsLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState(Menu[0].items[0]);
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(true);
@@ -44,11 +46,13 @@ const HeroSection = () => {
   const allProducts = useMemo(() => {
     const products = Menu.flatMap((category) =>
       category.items.flatMap((item) =>
-        item.subItems.flatMap((subItem) => subItem.products)
-      )
+        item.subItems.flatMap((subItem) => subItem.products),
+      ),
     );
     return shuffleArray(products);
   }, []);
+
+
 
   const handleProductClick = useCallback((product: any, index: number) => {
     setSelectedProduct(product);
@@ -112,7 +116,18 @@ const HeroSection = () => {
   const link = convertNameToLink(selectedProduct.name);
   const categoryLink = convertNameToLink(selectedCategory.name);
 
-  console.log(selectedProduct.image)
+  useEffect(() => {
+    // Simulate loading time (remove this in production and use real data loading)
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 300);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <HeroSkeleton />;
+  }
 
   return (
     <section className="w-full bg-white dark:bg-zinc-900 transition-colors duration-300">
@@ -120,7 +135,7 @@ const HeroSection = () => {
       <div className="lg:hidden sm:block text-center px-4 sm:px-6 my-8">
         <header className="z-20">
           <h1 className="font-bold z-20 text-zinc-900 dark:text-zinc-50 mb-4 text-3xl sm:text-4xl md:text-5xl">
-            Starbucks Menu With Prices 2024
+            Starbucks USA Menu With Prices 2025{" "}
           </h1>
           <p className="text-sm z-20 sm:text-base text-zinc-600 dark:text-zinc-300">
             Starbucks offers a diverse menu, including espresso, coffee, tea,
@@ -143,9 +158,9 @@ const HeroSection = () => {
       <div className="lg:flex hidden pb-[50px] border-b border-zinc-200 dark:border-zinc-700 flex-col md:flex-row justify-between items-stretch px-0 overflow-x-hidden">
         <div className="py-[60px] pl-6 pr-[25px] md:pl-[5%] lg:pl-[30px] xl:pl-[40px] bg-[#C0E8A6] dark:bg-zinc-800 lg:flex hidden items-center justify-start">
           <div className="md:max-w-[1100px] items-start justify-center flex flex-col text-left">
-            <span className="font-bold font-sans text-4xl lg:text-5xl xl:text-6xl text-zinc-900 dark:text-zinc-50">
-              Starbucks Menu With Prices 2024
-            </span>
+            <h1 className="font-bold font-sans text-4xl lg:text-5xl xl:text-6xl text-zinc-900 dark:text-zinc-50">
+              Starbucks USA Menu With Prices 2025{" "}
+            </h1>
             <p className="mt-2 lg:mt-6 text-sm lg:text-base text-zinc-600 dark:text-zinc-300">
               Starbucks offers a diverse menu, including espresso, coffee, tea,
               bakery items, breakfast, and lunch options. In addition to their
@@ -171,6 +186,7 @@ const HeroSection = () => {
                   alt={`${selectedProduct.name} Image`}
                   width={425}
                   height={425}
+                  draggable={false}
                   loading="lazy"
                 />
               </Link>
@@ -195,8 +211,8 @@ const HeroSection = () => {
             <button
               onClick={handlePreviousSlide}
               className={`mb-2 ${
-                canScrollPrev 
-                  ? "bg-green-400 hover:bg-green-400/90" 
+                canScrollPrev
+                  ? "bg-green-400 hover:bg-green-400/90"
                   : "bg-zinc-300 dark:bg-zinc-600"
               } rounded-full`}
               disabled={!canScrollPrev}
@@ -204,7 +220,10 @@ const HeroSection = () => {
               <ArrowRight className="h-6 lg:h-8 text-white w-6 lg:w-8 p-1 lg:p-2 -rotate-90" />
             </button>
 
-            <div className="w-full ml-2 lg:ml-7 mt-5 max-w-[240px] lg:max-w-sm overflow-hidden" ref={emblaRef}>
+            <div
+              className="w-full ml-2 lg:ml-7 mt-5 max-w-[240px] lg:max-w-sm overflow-hidden"
+              ref={emblaRef}
+            >
               <div className="-mt-1 h-[300px] lg:h-[370px]">
                 {allProducts.map((product, index) => {
                   let marginLeftClass = "";
@@ -252,8 +271,8 @@ const HeroSection = () => {
             <button
               onClick={handleNextSlide}
               className={`mt-4 ${
-                canScrollNext 
-                  ? "bg-green-400 hover:bg-green-400/90" 
+                canScrollNext
+                  ? "bg-green-400 hover:bg-green-400/90"
                   : "bg-zinc-300 dark:bg-zinc-600"
               } rounded-full`}
               disabled={!canScrollNext}
