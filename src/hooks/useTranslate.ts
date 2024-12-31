@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 export function useTranslate() {
   const [data, setData] = useState<any>();
   const pathname = usePathname();
-  const possibleLang = pathname.split("/")[1];
+  const possibleLang = (pathname ?? "").split("/")[1] || "";
 
   const lang = getActiveLanguages().some((lang) =>
     lang.languageCode.includes(possibleLang),
