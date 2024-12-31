@@ -1,5 +1,5 @@
 import SearchModal from "@/components/SearchModal";
-import TwSizeIndicator from "@/helpers/TwSizeIndicator";
+// import TwSizeIndicator from "@/helpers/TwSizeIndicator";
 import { getTranslations } from "@/lib/languageParser";
 import Footer from "@/partials/Footer";
 import Header from "@/partials/Header";
@@ -17,7 +17,7 @@ export default async function Layout({
 
   return (
     <>
-      <TwSizeIndicator />
+      {/* <TwSizeIndicator /> */}
       <Providers>
         <Header lang={params.lang} menu={menu} />
         <SearchModal lang={params.lang} />
