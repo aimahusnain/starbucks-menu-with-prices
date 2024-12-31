@@ -40,7 +40,13 @@ const HeroSection = () => {
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(true);
 
+  // Initialize both carousels at the component level
   const [emblaRef, emblaApi] = useEmblaCarousel({ axis: "y" });
+  const [emblaRefMobile, emblaMobileApi] = useEmblaCarousel({
+    loop: true,
+    dragFree: true,
+    containScroll: 'trimSnaps'
+  });
 
   // Shuffle products
   const allProducts = useMemo(() => {
@@ -131,28 +137,113 @@ const HeroSection = () => {
 
   return (
     <section className="w-full bg-white dark:bg-zinc-900 transition-colors duration-300">
-      {/* Mobile View */}
-      <div className="lg:hidden sm:block text-center px-4 sm:px-6 my-8">
-        <header className="z-20">
-          <h1 className="font-bold z-20 text-zinc-900 dark:text-zinc-50 mb-4 text-3xl sm:text-4xl md:text-5xl">
-            Starbucks USA Menu With Prices 2025{" "}
+    {/* Mobile and Tablet View (< 1024px) */}
+    <div className="lg:hidden block w-full">
+      <div className="relative px-4 sm:px-6 py-6 sm:py-10">
+        <div className="absolute top-0 left-0 w-64 h-64 bg-orange-300/40 dark:bg-orange-400/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-64 h-64 bg-[#C0E8A6]/40 dark:bg-green-400/20 rounded-full blur-3xl" />
+
+        <header className="relative z-20 text-center">
+          <h1 className="font-bold text-zinc-900 dark:text-zinc-50 mb-4 text-3xl sm:text-4xl">
+            Starbucks USA Menu With Prices 2025
           </h1>
-          <p className="text-sm z-20 sm:text-base text-zinc-600 dark:text-zinc-300">
+          <p className="text-sm sm:text-base text-zinc-600 dark:text-zinc-300 max-w-2xl mx-auto mb-6">
             Starbucks offers a diverse menu, including espresso, coffee, tea,
-            bakery items, breakfast, and lunch options. In addition to their
-            specialty coffee drinks, they also provide a selection of snacks and
-            baked goods for those seeking a quick bite.
+            bakery items, breakfast, and lunch options.
           </p>
 
-          <Button
-            id="Menu"
-            className="bg-transparent z-20 border-2 text-green-400 border-green-400 hover:bg-green-400/10 dark:hover:bg-green-400/20 w-full rounded-full text-sm py-2 mt-5"
-          >
-            View Full Menu
-          </Button>
+          <Link href="/menu">
+            <Button
+              className="bg-transparent border-2 text-green-400 border-green-400 hover:bg-green-400/10 
+              dark:hover:bg-green-400/20 w-full sm:w-[200px] rounded-full py-5 font-semibold"
+            >
+              View Full Menu
+            </Button>
+          </Link>
         </header>
-        <div className="w-[270px] absolute -left-[13rem] top-[40px] h-20 bg-orange-300/60 dark:bg-orange-400/30 rounded-full blur-3xl" />
+
+        <div className="mt-8 relative z-20">
+          {/* Featured Product */}
+          <div className="flex flex-col items-center mb-8">
+            <Link 
+              href={`/${convertNameToLink(selectedCategory.name)}/${convertNameToLink(selectedProduct.name)}`}
+              className="relative group"
+            >
+              <div className="absolute inset-0 bg-green-400/20 rounded-full blur-xl group-hover:bg-green-400/30 
+                transition-all duration-300 scale-90 group-hover:scale-100" />
+              <Image
+                className="rounded-full w-56 h-56 sm:w-72 sm:h-72 object-cover relative z-10 
+                  transition-transform duration-300 group-hover:scale-105"
+                src={`/products-images${selectedProduct.image}`}
+                alt={selectedProduct.name}
+                width={425}
+                height={425}
+                draggable={false}
+                loading="lazy"
+              />
+            </Link>
+
+            <div className="mt-6 text-center px-4">
+              <Link 
+                href={`/${convertNameToLink(selectedCategory.name)}/${convertNameToLink(selectedProduct.name)}`}
+                className="block"
+              >
+                <h2 className="font-bold text-xl sm:text-2xl text-zinc-900 dark:text-zinc-50 
+                  line-clamp-2 mb-4 hover:text-green-500 transition-colors">
+                  {selectedProduct.name}
+                </h2>
+              </Link>
+              
+              <Link 
+                href={`/${convertNameToLink(selectedCategory.name)}/${convertNameToLink(selectedProduct.name)}`}
+              >
+                <Button className="bg-green-400 hover:bg-green-500 text-white rounded-full 
+                  px-8 py-6 font-semibold text-base transition-all duration-300 
+                  hover:shadow-lg hover:shadow-green-400/20">
+                  View Price & Calories
+                </Button>
+              </Link>
+            </div>
+          </div>
+
+          {/* Product Carousel */}
+          <div className="overflow-hidden" ref={emblaRefMobile}>
+            <div className="flex gap-4 px-4">
+              {allProducts.slice(0, 140).map((product, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleProductClick(product, index)}
+                  className="flex-none w-24 sm:w-32"
+                >
+                  <div className={`
+                    rounded-2xl p-2 transition-all duration-300
+                    ${product === selectedProduct 
+                      ? 'bg-green-400 shadow-lg shadow-green-400/20' 
+                      : 'bg-zinc-100 dark:bg-zinc-800 hover:bg-green-400/10'}
+                  `}>
+                    <Image
+                      className="rounded-xl w-full h-auto aspect-square object-cover"
+                      src={`/products-images${product.image}`}
+                      alt={product.name}
+                      width={100}
+                      height={100}
+                    />
+                    <p className={`
+                      text-xs sm:text-sm mt-2 line-clamp-2 text-center px-1
+                      ${product === selectedProduct 
+                        ? 'text-white font-medium' 
+                        : 'text-zinc-700 dark:text-zinc-200'}
+                    `}>
+                      {product.name}
+                    </p>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
 
       {/* Desktop View */}
       <div className="lg:flex hidden pb-[50px] border-b border-zinc-200 dark:border-zinc-700 flex-col md:flex-row justify-between items-stretch px-0 overflow-x-hidden">
