@@ -21,7 +21,9 @@ const SeoMeta = ({
 }) => {
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
-  const pathname = usePathname();
+
+  // Provide a default value for pathname if it's null
+  const pathname = usePathname() ?? "";
 
   return (
     <>
@@ -49,7 +51,7 @@ const SeoMeta = ({
       <meta
         property="og:title"
         content={plainify(
-          meta_title ? meta_title : title ? title : config.site.title,
+          meta_title ? meta_title : title ? title : config.site.title
         )}
       />
 
@@ -68,7 +70,7 @@ const SeoMeta = ({
       <meta
         name="twitter:title"
         content={plainify(
-          meta_title ? meta_title : title ? title : config.site.title,
+          meta_title ? meta_title : title ? title : config.site.title
         )}
       />
 

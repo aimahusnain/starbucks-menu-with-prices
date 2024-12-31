@@ -11,7 +11,7 @@ const Breadcrumbs = ({
   className?: string;
   lang: string;
 }) => {
-  const pathname = usePathname();
+  const pathname = usePathname() ?? ""; // Ensure pathname is never null
   const paths = pathname
     .replace(`/${lang}`, "")
     .split("/")

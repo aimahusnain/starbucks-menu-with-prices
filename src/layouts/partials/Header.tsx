@@ -22,10 +22,12 @@ const Header = ({
   const activeLanguages = getActiveLanguages();
   const { main }: { main: INavigationLink[] } = menu;
   const { navigation_button, settings } = config;
-  const pathname = usePathname();
+
+  // Provide a default value for pathname if it's null
+  const pathname = usePathname() ?? "";
   console.log(pathname);
 
-  // scroll to top on route change
+  // Scroll to top on route change
   useEffect(() => {
     window.scroll(0, 0);
   }, [pathname]);
