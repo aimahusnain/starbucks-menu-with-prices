@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Brand North",
-    "base_url": "brand.com",
+    "title": "Starbmenu",
+    "base_url": "starbmenu.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "27",
-    "logo_text": "Brand North"
+    "logo_text": "Starbmenu"
   },
 
   "settings": {
@@ -27,7 +27,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by BN"
+    "copyright": "Designed And Developed by Devkins"
   },
 
   "navigation_button": {
