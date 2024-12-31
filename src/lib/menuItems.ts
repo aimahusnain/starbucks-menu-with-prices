@@ -29,7 +29,7 @@ export type Size = {
       items: [
         {
           name: "Hot Coffees",
-          image: "/hot-coffees",
+          image: "/hot-coffees.avif",
           link: "hot-coffees",
           subItems: [
             {
@@ -2347,7 +2347,7 @@ export type Size = {
                 {
                   name: "Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage",
                   image:
-                    "/Caramel Ribbon Crunch Crème Frappuccino® Blended Beverage.avif",
+                    "/Caramel Ribbon Crunch Creme Frappuccino Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
