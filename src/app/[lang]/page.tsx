@@ -1,3 +1,4 @@
+import Herosection from "@/components/Herosection";
 import languages from "@/config/language.json";
 import ImageFallback from "@/helpers/ImageFallback";
 import { getListPage } from "@/lib/contentParser";
@@ -47,7 +48,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14">
+      {/* <section className="section pt-14">
         <div className="container">
           <div className="row justify-center">
             <div className="lg:col-7 md:col-9 mb-8 text-center">
@@ -86,7 +87,9 @@ const Home = ({ params }: { params: { lang: string } }) => {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <Herosection />
 
       {features.map((feature, index: number) => (
         <section
