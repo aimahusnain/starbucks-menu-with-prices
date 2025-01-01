@@ -22,6 +22,14 @@ export async function generateStaticParams() {
   }));
 }
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: "Starbucks",
+  image: "/starbucks.png",
+  description: "product.description",
+}
+
 const Home = ({ params }: { params: { lang: string } }) => {
   const lang = params.lang;
   const language = languages.find(
@@ -96,6 +104,11 @@ const Home = ({ params }: { params: { lang: string } }) => {
           key={index}
           className={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
         >
+                {/* Add JSON-LD to your page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
           <div className="container">
             <div className="row items-center justify-between">
               <div
