@@ -104,7 +104,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
           key={index}
           className={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
         >
-                {/* Add JSON-LD to your page */}
+      {/* Add JSON-LD to your page */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
