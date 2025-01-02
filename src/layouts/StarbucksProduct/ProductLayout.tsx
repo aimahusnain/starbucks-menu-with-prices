@@ -79,7 +79,7 @@ const ProductLayout = ({ subItem, delay }: any) => {
       <div className="flex flex-row mb-6 items-center gap-5">
         <Link href={`/${link}`} aria-label={`Starbucks ${productName}`}>
           <Image
-            src={subItem.image}
+            src={`/products-images${subItem.image}`}
             loading="lazy"
             decoding="async"
             alt={`Starbucks menu with prices featuring a product`}
