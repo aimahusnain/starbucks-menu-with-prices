@@ -174,7 +174,7 @@ const HeroSection = () => {
               <Image
                 className="rounded-full w-56 h-56 sm:w-72 sm:h-72 object-cover relative z-10 
                   transition-transform duration-300 group-hover:scale-105"
-                src={`/products-images${selectedProduct.image}`}
+                src={`${selectedProduct.image}`}
                 alt={selectedProduct.name}
                 width={425}
                 height={425}
