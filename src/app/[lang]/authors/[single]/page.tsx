@@ -1,6 +1,6 @@
 import BlogCard from "@/components/BlogCard";
 import Social from "@/components/Social";
-import config from "@/config/config.json";
+import config from "@/config/config";
 import ImageFallback from "@/helpers/ImageFallback";
 import MDXContent from "@/helpers/MDXContent";
 import { getSinglePage } from "@/lib/contentParser";

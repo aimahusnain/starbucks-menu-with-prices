@@ -1,7 +1,7 @@
 import BlogCard from "@/components/BlogCard";
 import Disqus from "@/components/Disqus";
 import Share from "@/components/Share";
-import config from "@/config/config.json";
+import config from "@/config/config";
 import ImageFallback from "@/helpers/ImageFallback";
 import MDXContent from "@/helpers/MDXContent";
 import { getSinglePage } from "@/lib/contentParser";

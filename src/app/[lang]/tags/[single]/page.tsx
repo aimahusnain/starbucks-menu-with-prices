@@ -1,6 +1,6 @@
 import BlogCard from "@/components/BlogCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import config from "@/config/config.json";
+import config from "@/config/config";
 import { getSinglePage } from "@/lib/contentParser";
 import { getActiveLanguages, getLanguageObj } from "@/lib/languageParser";
 import { getTaxonomy } from "@/lib/taxonomyParser";

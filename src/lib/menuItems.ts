@@ -29,7 +29,7 @@ export type Size = {
       items: [
         {
           name: "Hot Coffees",
-          image: "/hot-coffees.avif",
+          image: "/products-images/hot-coffees.avif",
           link: "hot-coffees",
           subItems: [
             {
@@ -37,7 +37,7 @@ export type Size = {
               products: [
                 {
                   name: "Caffè Americano",
-                  image: "/caffe-americano.avif",
+                  image: "/products-images/caffe-americano.avif",
                   link: "caffe-americano",
                   sizes: [
                     {
@@ -73,7 +73,7 @@ export type Size = {
               products: [
                 {
                   name: "Veranda Blend® Clover Vertica™",
-                  image: "/verdana-blend-clover-verica.avif",
+                  image: "/products-images/verdana-blend-clover-verica.avif",
                   link: "veranda-blend-clover-vertica",
                   sizes: [
                     {
@@ -104,7 +104,7 @@ export type Size = {
                 },
                 {
                   name: "Featured Medium Roast Pike Place® Roast",
-                  image: "/to.avif",
+                  image: "/products-images/to.avif",
                   link: "featured-medium-roast-pike-place-roast",
                   sizes: [
                     {
@@ -135,7 +135,7 @@ export type Size = {
                 },
                 {
                   name: "Starbucks Odyssey Blend® Clover Vertica™",
-                  image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
+                  image: "/products-images/Starbucks Odyssey Blend® Clover Vertica™.avif",
                   link: "starbucks-0dyssey-blend-clover-vertica",
                   sizes: [
                     {
@@ -166,7 +166,7 @@ export type Size = {
                 },
                 {
                   name: "Featured Decaf Roast Decaf Pike Place® Roast",
-                  image: "/to.avif",
+                  image: "/products-images/to.avif",
                   link: "featured-decaf-roast-decaf-pike-place-roast",
                   sizes: [
                     {
@@ -197,7 +197,7 @@ export type Size = {
                 },
                 {
                   name: "Caffè Misto",
-                  image: "/Caffè Misto.avif",
+                  image: "/products-images/Caffè Misto.avif",
                   link: "cffe-misto",
                   sizes: [
                     {
@@ -228,7 +228,7 @@ export type Size = {
                 },
                 {
                   name: "Featured Blonde Roast",
-                  image: "/to.avif",
+                  image: "/products-images/to.avif",
                   link: "featured-blonde-roast",
                   sizes: [
                     {
@@ -259,7 +259,7 @@ export type Size = {
                 },
                 {
                   name: "Featured Dark Roast Caffè Verona®",
-                  image: "/Starbucks Odyssey Blend® Clover Vertica™.avif",
+                  image: "/products-images/Starbucks Odyssey Blend® Clover Vertica™.avif",
                   link: "featured-dark-roast-caffè-verona",
                   sizes: [
                     {
@@ -290,7 +290,7 @@ export type Size = {
                 },
                 {
                   name: "Featured Dark Roast",
-                  image: "/Featured Dark Roast.avif",
+                  image: "/products-images/Featured Dark Roast.avif",
                   link: "featured-dark-roast",
                   sizes: [
                     {
@@ -326,7 +326,7 @@ export type Size = {
               products: [
                 {
                   name: "Cappuccino",
-                  image: "/Cappuccino.avif",
+                  image: "/products-images/Cappuccino.avif",
                   link: "cappuccino",
                   sizes: [
                     {
@@ -362,7 +362,7 @@ export type Size = {
               products: [
                 {
                   name: "Espresso",
-                  image: "/Espresso.avif",
+                  image: "/products-images/Espresso.avif",
                   link: "espresso",
                   sizes: [
                     {
@@ -393,7 +393,7 @@ export type Size = {
                 },
                 {
                   name: "Espresso Con Panna",
-                  image: "/Espresso Con Panna.avif",
+                  image: "/products-images/Espresso Con Panna.avif",
                   link: "espresso-con-panna",
                   sizes: [
                     {
@@ -429,7 +429,7 @@ export type Size = {
               products: [
                 {
                   name: "Flat White",
-                  image: "/Flat White.avif",
+                  image: "/products-images/Flat White.avif",
                   link: "flat-white",
                   sizes: [
                     {
@@ -460,7 +460,7 @@ export type Size = {
                 },
                 {
                   name: "Honey Almondmilk Flat White",
-                  image: "/Honey Almondmilk Flat White.avif",
+                  image: "/products-images/Honey Almondmilk Flat White.avif",
                   link: "honey-almondmilk-flat-white",
                   sizes: [
                     {
@@ -496,7 +496,7 @@ export type Size = {
               products: [
                 {
                   name: "Lavender Oatmilk Latte",
-                  image: "/Lavender Oatmilk Latte.avif",
+                  image: "/products-images/Lavender Oatmilk Latte.avif",
                   link: "/lavender-oatmilk-latte",
                   sizes: [
                     {
@@ -527,7 +527,7 @@ export type Size = {
                 },
                 {
                   name: "Oleato™ Caffé Latte with Oatmilk",
-                  image: "/Oleato™ Caffé Latte with Oatmilk.avif",
+                  image: "/products-images/Oleato™ Caffé Latte with Oatmilk.avif",
                   link: "oleato-caffé-latte-with-oatmilk",
                   sizes: [
                     {
@@ -558,7 +558,7 @@ export type Size = {
                 },
                 {
                   name: "Caffè Latte",
-                  image: "/Caffè Latte.avif",
+                  image: "/products-images/Caffè Latte.avif",
                   link: "caffè-latte",
                   sizes: [
                     {
@@ -589,7 +589,7 @@ export type Size = {
                 },
                 {
                   name: "Cinnamon Dolce Latte",
-                  image: "/Cinnamon Dolce Latte.avif",
+                  image: "/products-images/Cinnamon Dolce Latte.avif",
                   link: "cinnamon-dolce-latte",
                   sizes: [
                     {
@@ -620,7 +620,7 @@ export type Size = {
                 },
                 {
                   name: "Starbucks® Blonde Vanilla Latte",
-                  image: "/Starbucks® Blonde Vanilla Latte.avif",
+                  image: "/products-images/Starbucks® Blonde Vanilla Latte.avif",
                   link: "starbucks-blonde-vanilla-latte",
                   sizes: [
                     {
@@ -656,7 +656,7 @@ export type Size = {
               products: [
                 {
                   name: "Caramel Macchiato",
-                  image: "/Caramel Macchiato.avif",
+                  image: "/products-images/Caramel Macchiato.avif",
                   link: "caramel-macchiato",
                   sizes: [
                     {
@@ -687,7 +687,7 @@ export type Size = {
                 },
                 {
                   name: "Espresso Macchiato",
-                  image: "/Espresso Macchiato.avif",
+                  image: "/products-images/Espresso Macchiato.avif",
                   sizes: [
                     {
                       size: "Solo",
@@ -723,7 +723,7 @@ export type Size = {
               products: [
                 {
                   name: "Caffè Mocha",
-                  image: "/Caffè Mocha.avif",
+                  image: "/products-images/Caffè Mocha.avif",
                   link: "caffè-mocha",
                   sizes: [
                     {
@@ -754,7 +754,7 @@ export type Size = {
                 },
                 {
                   name: "White Chocolate Mocha",
-                  image: "/White Chocolate Mocha.avif",
+                  image: "/products-images/White Chocolate Mocha.avif",
                   link: "white-chocolate-mocha",
                   sizes: [
                     {
@@ -790,7 +790,7 @@ export type Size = {
               products: [
                 {
                   name: "Coffee Traveler - Veranda Blend®",
-                  image: "/Box.avif",
+                  image: "/products-images/Box.avif",
                   link: "coffee-traveler-veranda-blend",
                   sizes: [
                     {
@@ -803,7 +803,7 @@ export type Size = {
                 },
                 {
                   name: "Coffee Traveler - Dark Roast",
-                  image: "/Box.avif",
+                  image: "/products-images/Box.avif",
                   link: "Coffee-Traveler-Dark-Roast",
                   sizes: [
                     {
@@ -816,7 +816,7 @@ export type Size = {
                 },
                 {
                   name: "Coffee Traveler - Pike Place® Roast",
-                  image: "/Box.avif",
+                  image: "/products-images/Box.avif",
                   link: "coffee-traveler-pike place-roast",
                   sizes: [
                     {
@@ -829,7 +829,7 @@ export type Size = {
                 },
                 {
                   name: "Coffee Traveler - Decaf Pike Place® Roast",
-                  image: "/Box.avif",
+                  image: "/products-images/Box.avif",
                   link: "coffee-traveler-decaf-pike-place-roast",
                   sizes: [
                     {
@@ -846,7 +846,7 @@ export type Size = {
         },
         {
           name: "Cold Coffees",
-          image: "/Vanilla Sweet Cream Cold Brew.avif",
+          image: "/products-images/Vanilla Sweet Cream Cold Brew.avif",
           link: "cold-coffees",
           subItems: [
             {
@@ -854,7 +854,7 @@ export type Size = {
               products: [
                 {
                   name: "White Chocolate Macadamia Cream Cold Brew",
-                  image: "/White Chocolate Macadamia Cream Cold Brew.avif",
+                  image: "/products-images/White Chocolate Macadamia Cream Cold Brew.avif",
                   link: "white-chocolate-macadamia-cream-cold-brew",
                   sizes: [
                     {
@@ -885,7 +885,7 @@ export type Size = {
                 },
                 {
                   name: "Salted Caramel Cream Cold Brew",
-                  image: "/Salted Caramel Cream Cold Brew.avif",
+                  image: "/products-images/Salted Caramel Cream Cold Brew.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -916,7 +916,7 @@ export type Size = {
                 },
                 {
                   name: "chocolate cream cold brew",
-                  image: "/Chocolate Cream Cold Brew.avif",
+                  image: "/products-images/Chocolate Cream Cold Brew.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -947,7 +947,7 @@ export type Size = {
                 },
                 {
                   name: "Vanilla Sweet Cream Cold Brew",
-                  image: "/Vanilla Sweet Cream Cold Brew.avif",
+                  image: "/products-images/Vanilla Sweet Cream Cold Brew.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -978,7 +978,7 @@ export type Size = {
                 },
                 {
                   name: "Starbucks® Cold Brew Coffee",
-                  image: "/Starbucks® Cold Brew Coffee.avif",
+                  image: "/products-images/Starbucks® Cold Brew Coffee.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1014,7 +1014,7 @@ export type Size = {
               products: [
                 {
                   name: "Cinnamon Caramel Cream Nitro Cold Brew",
-                  image: "/Cinnamon Caramel Cream Nitro Cold Brew.avif",
+                  image: "/products-images/Cinnamon Caramel Cream Nitro Cold Brew.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1033,7 +1033,7 @@ export type Size = {
                 },
                 {
                   name: "Nitro Cold Brew",
-                  image: "/Nitro Cold Brew.avif",
+                  image: "/products-images/Nitro Cold Brew.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1052,7 +1052,7 @@ export type Size = {
                 },
                 {
                   name: "Vanilla Sweet Cream Nitro Cold Brew",
-                  image: "/Vanilla Sweet Cream Nitro Cold Brew.avif",
+                  image: "/products-images/Vanilla Sweet Cream Nitro Cold Brew.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1076,7 +1076,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Caffè Americano",
-                  image: "/Iced Caffè Americano.avif",
+                  image: "/products-images/Iced Caffè Americano.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1106,7 +1106,7 @@ export type Size = {
               products: [
                 {
                   name: "Starbucks® Iced Coffee Blend",
-                  image: "/12.avif",
+                  image: "/products-images/12.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1137,7 +1137,7 @@ export type Size = {
                 },
                 {
                   name: "Starbucks® Iced Coffee Blend Clover Vertica™",
-                  image: "/12.avif",
+                  image: "/products-images/12.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1168,7 +1168,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Espresso",
-                  image: "/Iced Espresso.avif",
+                  image: "/products-images/Iced Espresso.avif",
                   sizes: [
                     {
                       size: "Solo",
@@ -1204,7 +1204,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Hazelnut Oatmilk Shaken Espresso",
-                  image: "/Iced Hazelnut Oatmilk Shaken Espresso.avif",
+                  image: "/products-images/Iced Hazelnut Oatmilk Shaken Espresso.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1229,7 +1229,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Brown Sugar Oatmilk Shaken Espresso",
-                  image: "/Iced Brown Sugar Oatmilk Shaken Espresso.avif",
+                  image: "/products-images/Iced Brown Sugar Oatmilk Shaken Espresso.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1280,7 +1280,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Shaken Espresso",
-                  image: "/Iced Shaken Espresso.avif",
+                  image: "/products-images/Iced Shaken Espresso.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1310,7 +1310,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Flat White",
-                  image: "/Iced Flat White.avif",
+                  image: "/products-images/Iced Flat White.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1335,7 +1335,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Honey Almondmilk Flat White",
-                  image: "/Iced Honey Almondmilk Flat White.avif",
+                  image: "/products-images/Iced Honey Almondmilk Flat White.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1365,7 +1365,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Lavender Oatmilk Latte",
-                  image: "/Iced Lavender Oatmilk Latte.avif",
+                  image: "/products-images/Iced Lavender Oatmilk Latte.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1390,7 +1390,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Starbucks® Blonde Vanilla Latte",
-                  image: "/Iced Starbucks® Blonde Vanilla Latte.avif",
+                  image: "/products-images/Iced Starbucks® Blonde Vanilla Latte.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1415,7 +1415,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Caffè Latte",
-                  image: "/Iced Caffè Latte.avif",
+                  image: "/products-images/Iced Caffè Latte.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1440,7 +1440,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Cinnamon Dolce Latte",
-                  image: "/Iced Cinnamon Dolce Latte.avif",
+                  image: "/products-images/Iced Cinnamon Dolce Latte.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1470,7 +1470,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Caramel Macchiato",
-                  image: "/Iced Caramel Macchiato.avif",
+                  image: "/products-images/Iced Caramel Macchiato.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1500,7 +1500,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced White Chocolate Mocha",
-                  image: "/Iced White Chocolate Mocha.avif",
+                  image: "/products-images/Iced White Chocolate Mocha.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1525,7 +1525,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Caffè Mocha",
-                  image: "/Iced Caffè Mocha.avif",
+                  image: "/products-images/Iced Caffè Mocha.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1554,7 +1554,7 @@ export type Size = {
         },
         {
           name: "Starbucks Refreshers® Beverages",
-          image: "/Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
+          image: "/products-images/Strawberry Açaí Lemonade Starbucks Refreshers® Beverage.avif",
           link: "starbucks-refreshers-beverages",
           subItems: [
             {
@@ -1626,7 +1626,7 @@ export type Size = {
                 },
                 {
                   name: "Summer-Berry Starbucks Refreshers® Beverage",
-                  image: "/Summer-Berry Starbucks Refreshers® Beverage.avif",
+                  image: "/products-images/Summer-Berry Starbucks Refreshers® Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1795,7 +1795,7 @@ export type Size = {
               products: [
                 {
                   name: "Pink Drink Starbucks Refreshers® Beverage",
-                  image: "/Pink Drink Starbucks Refreshers® Beverage.avif",
+                  image: "/products-images/Pink Drink Starbucks Refreshers® Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1826,7 +1826,7 @@ export type Size = {
                 },
                 {
                   name: "Dragon Drink® Starbucks Refreshers® Beverage",
-                  image: "/Dragon Drink® Starbucks Refreshers® Beverage.avif",
+                  image: "/products-images/Dragon Drink® Starbucks Refreshers® Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1857,7 +1857,7 @@ export type Size = {
                 },
                 {
                   name: "Paradise Drink Starbucks Refreshers® Beverage",
-                  image: "/Paradise Drink Starbucks Refreshers® Beverage.avif",
+                  image: "/products-images/Paradise Drink Starbucks Refreshers® Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1957,7 +1957,7 @@ export type Size = {
               products: [
                 {
                   name: "Strawberry Açaí Starbucks Refreshers® Beverage",
-                  image: "/Strawberry Açaí Starbucks Refreshers® Beverage.avif",
+                  image: "/products-images/Strawberry Açaí Starbucks Refreshers® Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -1988,7 +1988,7 @@ export type Size = {
                 },
                 {
                   name: "Mango Dragonfruit Starbucks Refreshers® Beverage",
-                  image: "/Mango Dragonfruit Starbucks Refreshers® Beverage.avif",
+                  image: "/products-images/Mango Dragonfruit Starbucks Refreshers® Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2064,7 +2064,7 @@ export type Size = {
               products: [
                 {
                   name: "Mocha Cookie Crumble Frappuccino®",
-                  image: "/Mocha Cookie Crumble Frappuccino®.avif",
+                  image: "/products-images/Mocha Cookie Crumble Frappuccino®.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2115,7 +2115,7 @@ export type Size = {
                 },
                 {
                   name: "Espresso Frappuccino® Blended Beverage",
-                  image: "/Espresso Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Espresso Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2140,7 +2140,7 @@ export type Size = {
                 },
                 {
                   name: "Coffee Frappuccino® Blended Beverage",
-                  image: "/Coffee Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Coffee Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2165,7 +2165,7 @@ export type Size = {
                 },
                 {
                   name: "Caffè Vanilla Frappuccino® Blended Beverage",
-                  image: "/Caffè Vanilla Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Caffè Vanilla Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2190,7 +2190,7 @@ export type Size = {
                 },
                 {
                   name: "Caramel Frappuccino® Blended Beverage",
-                  image: "/Caramel Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Caramel Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2215,7 +2215,7 @@ export type Size = {
                 },
                 {
                   name: "Mocha Frappuccino® Blended Beverage",
-                  image: "/Mocha Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Mocha Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2240,7 +2240,7 @@ export type Size = {
                 },
                 {
                   name: "Java Chip Frappuccino® Blended Beverage",
-                  image: "/Java Chip Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Java Chip Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2296,7 +2296,7 @@ export type Size = {
               products: [
                 {
                   name: "Lavender Crème Frappuccino® Blended Beverage",
-                  image: "/Lavender Crème Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Lavender Crème Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2321,7 +2321,7 @@ export type Size = {
                 },
                 {
                   name: "Chocolate Cookie Crumble Crème Frappuccino®",
-                  image: "/Chocolate Cookie Crumble Crème Frappuccino®.avif",
+                  image: "/products-images/Chocolate Cookie Crumble Crème Frappuccino®.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2372,7 +2372,7 @@ export type Size = {
                 },
                 {
                   name: "Strawberry Crème Frappuccino® Blended Beverage",
-                  image: "/Strawberry Crème Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Strawberry Crème Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2397,7 +2397,7 @@ export type Size = {
                 },
                 {
                   name: "Chai Crème Frappuccino®",
-                  image: "/Chai Crème Frappuccino®.avif",
+                  image: "/products-images/Chai Crème Frappuccino®.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2448,7 +2448,7 @@ export type Size = {
                 },
                 {
                   name: "Matcha Crème Frappuccino® Blended Beverage",
-                  image: "/Matcha Crème Frappuccino® Blended Beverage.avif",
+                  image: "/products-images/Matcha Crème Frappuccino® Blended Beverage.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2473,7 +2473,7 @@ export type Size = {
                 },
                 {
                   name: "Vanilla Bean Crème Frappuccino® Blended Crème",
-                  image: "/Vanilla Bean Crème Frappuccino® Blended Crème.avif",
+                  image: "/products-images/Vanilla Bean Crème Frappuccino® Blended Crème.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2528,7 +2528,7 @@ export type Size = {
         },
         {
           name: "Iced Tea and Lemonade",
-          image: "/Iced Tea and Lemonade.avif",
+          image: "/products-images/Iced Tea and Lemonade.avif",
           link: "iced-tea-and-lemonade",
           subItems: [
             {
@@ -2536,7 +2536,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Black Tea",
-                  image: "/Iced Black Tea.avif",
+                  image: "/products-images/Iced Black Tea.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -2567,7 +2567,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Black Tea Lemonade",
-                  image: "/Iced Black Tea Lemonade.avif",
+                  image: "/products-images/Iced Black Tea Lemonade.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -2598,7 +2598,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Royal English Breakfast Tea Latte",
-                  image: "/Iced Royal English Breakfast Tea Latte.avif",
+                  image: "/products-images/Iced Royal English Breakfast Tea Latte.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2623,7 +2623,7 @@ export type Size = {
                 },
                 {
                   name: "Iced London Fog Latte",
-                  image: "/Iced London Fog Latte.avif",
+                  image: "/products-images/Iced London Fog Latte.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2653,7 +2653,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Chai Latte",
-                  image: "/Iced Chai Tea Latte.jpg",
+                  image: "/products-images/Iced Chai Tea Latte.jpg",
                   sizes: [
                     {
                       size: "Tall",
@@ -2678,7 +2678,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Chai Tea Latte with Oleato Golden Foam™",
-                  image: "/Iced Chai Tea Latte with Oleato Golden Foam™.avif",
+                  image: "/products-images/Iced Chai Tea Latte with Oleato Golden Foam™.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2708,7 +2708,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Lavender Cream Oatmilk Matcha",
-                  image: "/Iced Lavender Cream Oatmilk Matcha.avif",
+                  image: "/products-images/Iced Lavender Cream Oatmilk Matcha.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2733,7 +2733,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Peach Green Tea",
-                  image: "/Iced Peach Green Tea.avif",
+                  image: "/products-images/Iced Peach Green Tea.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2764,7 +2764,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Peach Green Tea Lemonade",
-                  image: "/Iced Peach Green Tea Lemonade.avif",
+                  image: "/products-images/Iced Peach Green Tea Lemonade.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2795,7 +2795,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Matcha Tea Latte",
-                  image: "/Iced Matcha Tea Latte.avif",
+                  image: "/products-images/Iced Matcha Tea Latte.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2820,7 +2820,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Green Tea",
-                  image: "/Iced Green Tea.avif",
+                  image: "/products-images/Iced Green Tea.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2851,7 +2851,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Green Tea Lemonade",
-                  image: "/Iced Green Tea Lemonade.avif",
+                  image: "/products-images/Iced Green Tea Lemonade.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2882,7 +2882,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Matcha Lemonade",
-                  image: "/Iced Matcha Lemonade.avif",
+                  image: "/products-images/Iced Matcha Lemonade.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2913,7 +2913,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Matcha Tea Latte with Oleato Golden Foam™",
-                  image: "/Iced Matcha Tea Latte with Oleato Golden Foam™.avif",
+                  image: "/products-images/Iced Matcha Tea Latte with Oleato Golden Foam™.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2943,7 +2943,7 @@ export type Size = {
               products: [
                 {
                   name: "Iced Passion Tango® Tea",
-                  image: "/Iced Passion Tango® Tea.avif",
+                  image: "/products-images/Iced Passion Tango® Tea.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -2974,7 +2974,7 @@ export type Size = {
                 },
                 {
                   name: "Iced Passion Tango® Tea Lemonade",
-                  image: "/Iced Passion Tango® Tea Lemonade.avif",
+                  image: "/products-images/Iced Passion Tango® Tea Lemonade.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3010,7 +3010,7 @@ export type Size = {
               products: [
                 {
                   name: "Lemonade",
-                  image: "/Lemonade.avif",
+                  image: "/products-images/Lemonade.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3047,7 +3047,7 @@ export type Size = {
                 },
                 {
                   name: "Blended Strawberry Lemonade",
-                  image: "/Blended Strawberry Lemonade.avif",
+                  image: "/products-images/Blended Strawberry Lemonade.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3076,7 +3076,7 @@ export type Size = {
         },
         {
           name: "Hot Teas",
-          image: "/Hot Teas.avif",
+          image: "/products-images/Hot Teas.avif",
           link: "hot-teas",
           subItems: [
             {
@@ -3084,7 +3084,7 @@ export type Size = {
               products: [
                 {
                   name: "Chai Latte",
-                  image: "/Chai Tea Latte.avif",
+                  image: "/products-images/Chai Tea Latte.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3115,7 +3115,7 @@ export type Size = {
                 },
                 {
                   name: "Chai Tea",
-                  image: "/Chai Tea.avif",
+                  image: "/products-images/Chai Tea.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3151,7 +3151,7 @@ export type Size = {
               products: [
                 {
                   name: "Earl Grey Tea",
-                  image: "/Earl Grey Tea.avif",
+                  image: "/products-images/Earl Grey Tea.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3182,7 +3182,7 @@ export type Size = {
                 },
                 {
                   name: "Royal English Breakfast Tea",
-                  image: "/Royal English Breakfast Tea.avif",
+                  image: "/products-images/Royal English Breakfast Tea.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3213,7 +3213,7 @@ export type Size = {
                 },
                 {
                   name: "Royal English breakfast latte",
-                  image: "/Royal English breakfast tea latte.avif",
+                  image: "/products-images/Royal English breakfast tea latte.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3249,7 +3249,7 @@ export type Size = {
               products: [
                 {
                   name: "Emperors Clouds and Mist",
-                  image: "/Emperor’s Clouds & Mist®.avif",
+                  image: "/products-images/Emperor’s Clouds & Mist®.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3280,7 +3280,7 @@ export type Size = {
                 },
                 {
                   name: "Matcha Latte",
-                  image: "/Matcha Tea Latte.avif",
+                  image: "/products-images/Matcha Tea Latte.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3311,7 +3311,7 @@ export type Size = {
                 },
                 {
                   name: "Honey Citrus Mint Tea",
-                  image: "/Honey Citrus Mint Tea.avif",
+                  image: "/products-images/Honey Citrus Mint Tea.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3347,7 +3347,7 @@ export type Size = {
               products: [
                 {
                   name: "Mint Majesty",
-                  image: "/Chai Tea.avif",
+                  image: "/products-images/Chai Tea.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3382,7 +3382,7 @@ export type Size = {
         },
         {
           name: "Milk, Juice & More",
-          image: "/Milk, Juice & More.avif",
+          image: "/products-images/Milk, Juice & More.avif",
           link: "milk-juice-and-more",
           subItems: [
             {
@@ -3390,7 +3390,7 @@ export type Size = {
               products: [
                 {
                   name: "Hot Chocolate",
-                  image: "/Hot Chocolate.avif",
+                  image: "/products-images/Hot Chocolate.avif",
                   sizes: [
                     {
                       size: "Kids",
@@ -3427,7 +3427,7 @@ export type Size = {
                 },
                 {
                   name: "White Hot Chocolate",
-                  image: "/White Hot Chocolate.avif",
+                  image: "/products-images/White Hot Chocolate.avif",
                   sizes: [
                     {
                       size: "Kids",
@@ -3469,7 +3469,7 @@ export type Size = {
               products: [
                 {
                   name: "Caramel Apple Spice",
-                  image: "/Caramel Apple Spice.avif",
+                  image: "/products-images/Caramel Apple Spice.avif",
                   sizes: [
                     {
                       size: "Kids",
@@ -3506,7 +3506,7 @@ export type Size = {
                 },
                 {
                   name: "Steamed Apple Juice",
-                  image: "/Steamed Apple Juice.avif",
+                  image: "/products-images/Steamed Apple Juice.avif",
                   sizes: [
                     {
                       size: "Kids",
@@ -3548,7 +3548,7 @@ export type Size = {
               products: [
                 {
                   name: "Cold Milk",
-                  image: "/Cold Milk.avif",
+                  image: "/products-images/Cold Milk.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3573,7 +3573,7 @@ export type Size = {
                 },
                 {
                   name: "Steamed Milk",
-                  image: "/Steamed Milk.avif",
+                  image: "/products-images/Steamed Milk.avif",
                   sizes: [
                     {
                       size: "Kids",
@@ -3610,7 +3610,7 @@ export type Size = {
                 },
                 {
                   name: "Vanilla Crème",
-                  image: "/Vanilla Crème.avif",
+                  image: "/products-images/Vanilla Crème.avif",
                   sizes: [
                     {
                       size: "Kids",
@@ -3651,7 +3651,7 @@ export type Size = {
         },
         {
           name: "Bottled Beverages",
-          image: "/Bottled Beverages.avif",
+          image: "/products-images/Bottled Beverages.avif",
           link: "bottled-beverages",
           subItems: [
             {
@@ -3659,7 +3659,7 @@ export type Size = {
               products: [
                 {
                   name: "Spindrift® Lemon Sparkling Water",
-                  image: "/Spindrift® Lemon Sparkling Water.avif",
+                  image: "/products-images/Spindrift® Lemon Sparkling Water.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3672,7 +3672,7 @@ export type Size = {
                 },
                 {
                   name: "Spindrift® Raspberry Lime Sparkling Water",
-                  image: "/Spindrift® Raspberry Lime Sparkling Water.avif",
+                  image: "/products-images/Spindrift® Raspberry Lime Sparkling Water.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3685,7 +3685,7 @@ export type Size = {
                 },
                 {
                   name: "Spindrift® Grapefruit Sparkling Water",
-                  image: "/Spindrift® Grapefruit Sparkling Water.jpg",
+                  image: "/products-images/Spindrift® Grapefruit Sparkling Water.jpg",
                   sizes: [
                     {
                       size: "Tall",
@@ -3698,7 +3698,7 @@ export type Size = {
                 },
                 {
                   name: "Ethos® Bottled Water",
-                  image: "/Ethos® Bottled Water.avif",
+                  image: "/products-images/Ethos® Bottled Water.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3716,7 +3716,7 @@ export type Size = {
               products: [
                 {
                   name: "Koia® Cacao Bean Protein Shake",
-                  image: "/Koia® Cacao Bean Protein Shake.avif",
+                  image: "/products-images/Koia® Cacao Bean Protein Shake.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3729,7 +3729,7 @@ export type Size = {
                 },
                 {
                   name: "Koia® Vanilla Bean Protein Shake",
-                  image: "/Koia® Vanilla Bean Protein Shake.avif",
+                  image: "/products-images/Koia® Vanilla Bean Protein Shake.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3742,7 +3742,7 @@ export type Size = {
                 },
                 {
                   name: "Horizon® Chocolate Organic Milk",
-                  image: "/Horizon® Chocolate Organic Milk.avif",
+                  image: "/products-images/Horizon® Chocolate Organic Milk.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3755,7 +3755,7 @@ export type Size = {
                 },
                 {
                   name: "Horizon® Organic Lowfat Milk Box",
-                  image: "/Horizon® Organic Lowfat Milk Box.avif",
+                  image: "/products-images/Horizon® Organic Lowfat Milk Box.avif",
                   sizes: [
                     {
                       size: "Short",
@@ -3773,7 +3773,7 @@ export type Size = {
               products: [
                 {
                   name: "Evolution Fresh® Organic Defense Up®",
-                  image: "/Evolution Fresh® Organic Defense Up®.avif",
+                  image: "/products-images/Evolution Fresh® Organic Defense Up®.avif",
                   sizes: [
                     {
                       size: "11 fl oz",
@@ -3786,7 +3786,7 @@ export type Size = {
                 },
                 {
                   name: "Evolution Fresh® Orange",
-                  image: "/Evolution Fresh® Orange.avif",
+                  image: "/products-images/Evolution Fresh® Orange.avif",
                   sizes: [
                     {
                       size: "11 fl oz",
@@ -3799,7 +3799,7 @@ export type Size = {
                 },
                 {
                   name: "Evolution Fresh® Organic Super Fruit Greens",
-                  image: "/Evolution Fresh® Organic Super Fruit Greens.avif",
+                  image: "/products-images/Evolution Fresh® Organic Super Fruit Greens.avif",
                   sizes: [
                     {
                       size: "11 fl oz",
@@ -3812,7 +3812,7 @@ export type Size = {
                 },
                 {
                   name: "Tree Top Apple Juice Box",
-                  image: "/Tree Top Apple Juice Box.avif",
+                  image: "/products-images/Tree Top Apple Juice Box.avif",
                   sizes: [
                     {
                       size: "8-Packaged",
@@ -3825,7 +3825,7 @@ export type Size = {
                 },
                 {
                   name: "Starbucks™ Baya Energy Raspberry Lime",
-                  image: "/Starbucks™ Baya Energy Raspberry Lime.avif",
+                  image: "/products-images/Starbucks™ Baya Energy Raspberry Lime.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3843,7 +3843,7 @@ export type Size = {
               products: [
                 {
                   name: "Brew DR. Island Mango Kombucha",
-                  image: "/Brew DR. Island Mango Kombucha.avif",
+                  image: "/products-images/Brew DR. Island Mango Kombucha.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3856,7 +3856,7 @@ export type Size = {
                 },
                 {
                   name: "Brew DR. Superberry Kombucha",
-                  image: "/Brew DR. Superberry Kombucha.avif",
+                  image: "/products-images/Brew DR. Superberry Kombucha.avif",
                   sizes: [
                     {
                       size: "Tall",
@@ -3880,7 +3880,7 @@ export type Size = {
       items: [
         {
           name: "Hot Breakfast",
-          image: "/Double-Smoked Bacon, Cheddar & Egg Sandwich.avif",
+          image: "/products-images/Double-Smoked Bacon, Cheddar & Egg Sandwich.avif",
           link: "hot-breakfast",
           subItems: [
             {
@@ -3888,63 +3888,63 @@ export type Size = {
               products: [
                 {
                   name: "Chicken, Maple Butter & Egg Sandwich",
-                  image: "/Chicken, Maple Butter & Egg Sandwich.avif",
+                  image: "/products-images/Chicken, Maple Butter & Egg Sandwich.avif",
                   calories: 450,
                   price: "$6.45",
                   link: "",
                 },
                 {
                   name: "Bacon, Sausage & Egg Wrap",
-                  image: "/Bacon, Sausage & Egg Wrap.avif",
+                  image: "/products-images/Bacon, Sausage & Egg Wrap.avif",
                   calories: 640,
                   price: "$7.25",
                   link: "",
                 },
                 {
                   name: "Impossible Breakfast sandwich",
-                  image: "/Impossible™ Breakfast Sandwich.avif",
+                  image: "/products-images/Impossible™ Breakfast Sandwich.avif",
                   calories: 420,
                   price: "$6.45",
                   link: "",
                 },
                 {
                   name: "Bacon, Gouda & Egg Sandwich",
-                  image: "/Bacon, Gouda & Egg Sandwich.avif",
+                  image: "/products-images/Bacon, Gouda & Egg Sandwich.avif",
                   calories: 360,
                   price: "$6.25",
                   link: "",
                 },
                 {
                   name: "Double-Smoked Bacon, Cheddar & Egg Sandwich",
-                  image: "/Double-Smoked Bacon, Cheddar & Egg Sandwich.avif",
+                  image: "/products-images/Double-Smoked Bacon, Cheddar & Egg Sandwich.avif",
                   calories: 500,
                   price: "$6.45",
                   link: "",
                 },
                 {
                   name: "Turkey Bacon, Cheddar & Egg White Sandwich",
-                  image: "/Turkey Bacon, Cheddar & Egg White Sandwich.avif",
+                  image: "/products-images/Turkey Bacon, Cheddar & Egg White Sandwich.avif",
                   calories: 230,
                   price: "$5.65",
                   link: "",
                 },
                 {
                   name: "Sausage, Cheddar & Egg Sandwich",
-                  image: "/Sausage, Cheddar & Egg Sandwich.avif",
+                  image: "/products-images/Sausage, Cheddar & Egg Sandwich.avif",
                   calories: 480,
                   price: "$5.65",
                   link: "",
                 },
                 {
                   name: "Spinach, Feta & Egg White Wrap",
-                  image: "/Spinach, Feta & Egg White Wrap.avif",
+                  image: "/products-images/Spinach, Feta & Egg White Wrap.avif",
                   calories: 290,
                   price: "$5.95",
                   link: "",
                 },
                 {
                   name: "Avocado Spread",
-                  image: "/Avocado Spread.avif",
+                  image: "/products-images/Avocado Spread.avif",
                   calories: 90,
                   price: "$1.45",
                   link: "",
@@ -3956,28 +3956,28 @@ export type Size = {
               products: [
                 {
                   name: "Potato, Cheddar & Chive Bakes",
-                  image: "/Potato, Cheddar & Chive Bakes.avif",
+                  image: "/products-images/Potato, Cheddar & Chive Bakes.avif",
                   calories: 210,
                   price: "$4.95",
                   link: "",
                 },
                 {
                   name: "Kale & Mushroom Egg Bites",
-                  image: "/Kale & Mushroom Egg Bites.avif",
+                  image: "/products-images/Kale & Mushroom Egg Bites.avif",
                   calories: 230,
                   price: "$5.95",
                   link: "",
                 },
                 {
                   name: "Bacon & Gruyere Egg Bites",
-                  image: "/Bacon & Gruyère Egg Bites.avif",
+                  image: "/products-images/Bacon & Gruyère Egg Bites.avif",
                   calories: 300,
                   price: "$5.95",
                   link: "",
                 },
                 {
                   name: "Egg White & Roasted Red Pepper Egg Bites",
-                  image: "/Egg White & Roasted Red Pepper Egg Bites.avif",
+                  image: "/products-images/Egg White & Roasted Red Pepper Egg Bites.avif",
                   calories: 170,
                   price: "$5.95",
                   link: "",
@@ -3988,7 +3988,7 @@ export type Size = {
         },
         {
           name: "Oatmeal & Yogurt",
-          image: "/Oatmeal & Yogurt.avif",
+          image: "/products-images/Oatmeal & Yogurt.avif",
           link: "oatmeal-and-yogurt",
           subItems: [
             {
@@ -3996,14 +3996,14 @@ export type Size = {
               products: [
                 {
                   name: "Rolled & Steel-Cut Oatmeal",
-                  image: "/Oatmeal & Yogurt.avif",
+                  image: "/products-images/Oatmeal & Yogurt.avif",
                   calories: 160,
                   price: "$4.65",
                   link: "",
                 },
                 {
                   name: "Berry Trio Parfait",
-                  image: "/Berry Trio Parfait.avif",
+                  image: "/products-images/Berry Trio Parfait.avif",
                   calories: 240,
                   price: "$4.25",
                   link: "",
@@ -4014,7 +4014,7 @@ export type Size = {
         },
         {
           name: "Bakery",
-          image: "/Pineapple Cloud Cake.avif",
+          image: "/products-images/Pineapple Cloud Cake.avif",
           link: "bakery",
           subItems: [
             {
@@ -4022,21 +4022,21 @@ export type Size = {
               products: [
                 {
                   name: "Plain Bagel",
-                  image: "/Plain Bagel.avif",
+                  image: "/products-images/Plain Bagel.avif",
                   calories: 290,
                   price: "$3.25",
                   link: "",
                 },
                 {
                   name: "Everything Bagel",
-                  image: "/Everything Bagel.avif",
+                  image: "/products-images/Everything Bagel.avif",
                   calories: 290,
                   price: "$3.25",
                   link: "",
                 },
                 {
                   name: "Avocado Spread",
-                  image: "/Avocado Spread.avif",
+                  image: "/products-images/Avocado Spread.avif",
                   calories: 90,
                   price: "$1.45",
                   link: "",
@@ -4048,28 +4048,28 @@ export type Size = {
               products: [
                 {
                   name: "Orange Cream Cake Pop",
-                  image: "/Orange Cream Cake Pop.avif",
+                  image: "/products-images/Orange Cream Cake Pop.avif",
                   calories: 140,
                   price: "$4.25",
                   link: "",
                 },
                 {
                   name: "Cookies & Cream Cake Pop",
-                  image: "/Cookies & Cream Cake Pop.avif",
+                  image: "/products-images/Cookies & Cream Cake Pop.avif",
                   calories: 140,
                   price: "$3.95",
                   link: "",
                 },
                 {
                   name: "Birthday Cake Pop",
-                  image: "/Birthday Cake Pop.avif",
+                  image: "/products-images/Birthday Cake Pop.avif",
                   calories: 160,
                   price: "$3.95",
                   link: "",
                 },
                 {
                   name: "Chocolate Cake Pop",
-                  image: "/Chocolate Cake Pop.avif",
+                  image: "/products-images/Chocolate Cake Pop.avif",
                   calories: 150,
                   price: "$3.95",
                   link: "",
@@ -4081,21 +4081,21 @@ export type Size = {
               products: [
                 {
                   name: "Double Chocolate Brownie",
-                  image: "/Double Chocolate Brownie.avif",
+                  image: "/products-images/Double Chocolate Brownie.avif",
                   calories: 480,
                   price: "$4.25",
                   link: "",
                 },
                 {
                   name: "Chocolate Chip Cookie",
-                  image: "/Chocolate Chip Cookie.avif",
+                  image: "/products-images/Chocolate Chip Cookie.avif",
                   calories: 370,
                   price: "$2.95",
                   link: "",
                 },
                 {
                   name: "Marshmallow Dream Bar",
-                  image: "/Marshmallow Dream Bar.avif",
+                  image: "/products-images/Marshmallow Dream Bar.avif",
                   calories: 230,
                   price: "$2.50",
                   link: "",
@@ -4107,21 +4107,21 @@ export type Size = {
               products: [
                 {
                   name: "Ham & Swiss Croissant",
-                  image: "/Ham & Swiss Croissant.avif",
+                  image: "/products-images/Ham & Swiss Croissant.avif",
                   calories: 320,
                   price: "$4.95",
                   link: "",
                 },
                 {
                   name: "Butter Croissant",
-                  image: "/Butter Croissant.avif",
+                  image: "/products-images/Butter Croissant.avif",
                   calories: 250,
                   price: "$3.65",
                   link: "",
                 },
                 {
                   name: "Chocolate Croissant",
-                  image: "/Chocolate Croissant.avif",
+                  image: "/products-images/Chocolate Croissant.avif",
                   calories: 300,
                   price: "$3.95",
                   link: "",
@@ -4133,35 +4133,35 @@ export type Size = {
               products: [
                 {
                   name: "Pineapple Cloud Cake",
-                  image: "/Pineapple Cloud Cake.avif",
+                  image: "/products-images/Pineapple Cloud Cake.avif",
                   calories: 240,
                   price: "$3.65",
                   link: "",
                 },
                 {
                   name: "Cinnamon Coffee Cake",
-                  image: "/Cinnamon Coffee Cake.avif",
+                  image: "/products-images/Cinnamon Coffee Cake.avif",
                   calories: 380,
                   price: "$3.95",
                   link: "",
                 },
                 {
                   name: "Iced Lemon Loaf",
-                  image: "/Iced Lemon Loaf.avif",
+                  image: "/products-images/Iced Lemon Loaf.avif",
                   calories: 450,
                   price: "$4.25",
                   link: "",
                 },
                 {
                   name: "Banana Walnut & Pecan Loaf",
-                  image: "/Banana Walnut & Pecan Loaf.avif",
+                  image: "/products-images/Banana Walnut & Pecan Loaf.avif",
                   calories: 410,
                   price: "$4.25",
                   link: "",
                 },
                 {
                   name: "Pumpkin & Pepita Loaf",
-                  image: "/Pumpkin & Pepita Loaf.avif",
+                  image: "/products-images/Pumpkin & Pepita Loaf.avif",
                   calories: 390,
                   price: "$4.25",
                   link: "",
@@ -4173,42 +4173,42 @@ export type Size = {
               products: [
                 {
                   name: "Vanilla Bean Custard Danish",
-                  image: "/Vanilla Bean Custard Danish.avif",
+                  image: "/products-images/Vanilla Bean Custard Danish.avif",
                   calories: 230,
                   price: "$4.70",
                   link: "",
                 },
                 {
                   name: "Glazed Doughnut",
-                  image: "/Glazed Doughnut.avif",
+                  image: "/products-images/Glazed Doughnut.avif",
                   calories: 440,
                   price: "$3.25",
                   link: "",
                 },
                 {
                   name: "Cheese Danish",
-                  image: "/Cheese Danish.avif",
+                  image: "/products-images/Cheese Danish.avif",
                   calories: 290,
                   price: "$3.65",
                   link: "",
                 },
                 {
                   name: "Blueberry Scone",
-                  image: "/Blueberry Scone.avif",
+                  image: "/products-images/Blueberry Scone.avif",
                   calories: 410,
                   price: "$3.45",
                   link: "",
                 },
                 {
                   name: "Petite Vanilla Bean Scone",
-                  image: "/Petite Vanilla Bean Scone.avif",
+                  image: "/products-images/Petite Vanilla Bean Scone.avif",
                   calories: 130,
                   price: "$2.25",
                   link: "",
                 },
                 {
                   name: "Blueberry Muffin",
-                  image: "/Blueberry Muffin.avif",
+                  image: "/products-images/Blueberry Muffin.avif",
                   calories: 330,
                   price: "$3.65",
                   link: "",
@@ -4219,7 +4219,7 @@ export type Size = {
         },
         {
           name: "Lunch",
-          image: "/Tomato & Mozzarella on Focaccia.avif",
+          image: "/products-images/Tomato & Mozzarella on Focaccia.avif",
           link: "lunch",
           subItems: [
             {
@@ -4227,35 +4227,35 @@ export type Size = {
               products: [
                 {
                   name: "Crispy Grilled Cheese on Sourdough",
-                  image: "/Crispy Grilled Cheese on Sourdough.avif",
+                  image: "/products-images/Crispy Grilled Cheese on Sourdough.avif",
                   calories: 520,
                   price: "$7.45",
                   link: "",
                 },
                 {
                   name: "Ham & Swiss on Baguette",
-                  image: "/Ham & Swiss on Baguette.avif",
+                  image: "/products-images/Ham & Swiss on Baguette.avif",
                   calories: 500,
                   price: "$7.85",
                   link: "",
                 },
                 {
                   name: "Turkey, Provolone & Pesto on Ciabatta",
-                  image: "/Turkey, Provolone & Pesto on Ciabatta.avif",
+                  image: "/products-images/Turkey, Provolone & Pesto on Ciabatta.avif",
                   calories: 520,
                   price: "$7.45",
                   link: "",
                 },
                 {
                   name: "Tomato & Mozzarella on Facoccia",
-                  image: "/Tomato & Mozzarella on Focaccia.avif",
+                  image: "/products-images/Tomato & Mozzarella on Focaccia.avif",
                   calories: 360,
                   price: "$6.95",
                   link: "",
                 },
                 {
                   name: "Avocado Spread",
-                  image: "/Avocado Spread.avif",
+                  image: "/products-images/Avocado Spread.avif",
                   calories: 90,
                   price: "$1.45",
                   link: "",
@@ -4267,21 +4267,21 @@ export type Size = {
               products: [
                 {
                   name: "Eggs & Cheddar Protein Box",
-                  image: "/Eggs & Cheddar Protein Box.avif",
+                  image: "/products-images/Eggs & Cheddar Protein Box.avif",
                   calories: 460,
                   price: "$6.95",
                   link: "",
                 },
                 {
                   name: "PB&J Protein Box",
-                  image: "/PB&J Protein Box.avif",
+                  image: "/products-images/PB&J Protein Box.avif",
                   calories: 520,
                   price: "$6.75",
                   link: "",
                 },
                 {
                   name: "Cheese & Fruit Protein Box",
-                  image: "/Cheese & Fruit Protein Box.avif",
+                  image: "/products-images/Cheese & Fruit Protein Box.avif",
                   calories: 470,
                   price: "$6.75",
                   link: "",
@@ -4292,7 +4292,7 @@ export type Size = {
         },
         {
           name: "Snacks & Sweets",
-          image: "/Snacks & Sweets.avif",
+          image: "/products-images/Snacks & Sweets.avif",
           link: "snacks-and-sweets",
           subItems: [
             {
@@ -4300,14 +4300,14 @@ export type Size = {
               products: [
                 {
                   name: "Madeleines",
-                  image: "/Madeleines.avif",
+                  image: "/products-images/Madeleines.avif",
                   calories: 220,
                   price: "$2.45",
                   link: "",
                 },
                 {
                   name: "Vanilla Biscotti with Almonds",
-                  image: "/Vanilla Biscotti with Almonds.avif",
+                  image: "/products-images/Vanilla Biscotti with Almonds.avif",
                   calories: 200,
                   price: "$1.95",
                   link: "",
@@ -4319,14 +4319,14 @@ export type Size = {
               products: [
                 {
                   name: "Salted Almond Chocolate Bites",
-                  image: "/Salted Almond Chocolate Bites.avif",
+                  image: "/products-images/Salted Almond Chocolate Bites.avif",
                   calories: 300,
                   price: "$2.75",
                   link: "",
                 },
                 {
                   name: "Dark Chocolate Covered Espresso Beans",
-                  image: "/Dark Chocolate Covered Espresso Beans.avif",
+                  image: "/products-images/Dark Chocolate Covered Espresso Beans.avif",
                   calories: 260,
                   price: "$3.50",
                   link: "",
@@ -4338,21 +4338,21 @@ export type Size = {
               products: [
                 {
                   name: "SkinnyDipped Lemon Bliss Almonds",
-                  image: "/SkinnyDipped Lemon Bliss Almonds.avif",
+                  image: "/products-images/SkinnyDipped Lemon Bliss Almonds.avif",
                   calories: 170,
                   price: "$2.95",
                   link: "",
                 },
                 {
                   name: "Skinny Dipped Dark Chocolate Cocoa Almonds",
-                  image: "/SkinnyDipped Dark Chocolate Cocoa Almonds.avif",
+                  image: "/products-images/SkinnyDipped Dark Chocolate Cocoa Almonds.avif",
                   calories: 170,
                   price: "$2.95",
                   link: "",
                 },
                 {
                   name: "Peter Rabbit™ Organics Strawberry Banana",
-                  image: "/Peter Rabbit™ Organics Strawberry Banana.avif",
+                  image: "/products-images/Peter Rabbit™ Organics Strawberry Banana.avif",
                   calories: 80,
                   price: "$2.25",
                   link: "",
@@ -4364,7 +4364,7 @@ export type Size = {
               products: [
                 {
                   name: "Spearmint Gum",
-                  image: "/Spearmint Gum.avif",
+                  image: "/products-images/Spearmint Gum.avif",
                   calories: 0,
                   price: "$2.50",
                   link: "",
@@ -4376,21 +4376,21 @@ export type Size = {
               products: [
                 {
                   name: "Siete Sea Salt Kettle Cooked Potato Chips",
-                  image: "/Siete Sea Salt Kettle Cooked Potato Chips.avif",
+                  image: "/products-images/Siete Sea Salt Kettle Cooked Potato Chips.avif",
                   calories: 210,
                   price: "$2.55",
                   link: "",
                 },
                 {
                   name: "Starbucks Butter Popcorn",
-                  image: "/Starbucks Butter Popcorn.avif",
+                  image: "/products-images/Starbucks Butter Popcorn.avif",
                   calories: 150,
                   price: "$1.50",
                   link: "",
                 },
                 {
                   name: "Perfectly Salted Chips",
-                  image: "/Perfectly Salted Chips.avif",
+                  image: "/products-images/Perfectly Salted Chips.avif",
                   calories: 280,
                   price: "$1.75",
                   link: "",
@@ -4402,7 +4402,7 @@ export type Size = {
               products: [
                 {
                   name: "String Cheese",
-                  image: "/String Cheese.jpg",
+                  image: "/products-images/String Cheese.jpg",
                   calories: 0,
                   price: "$2.25",
                   link: "",
@@ -4414,21 +4414,21 @@ export type Size = {
               products: [
                 {
                   name: "Perfect Bar® - Dark Chocolate Chip Peanut Butter",
-                  image: "/Perfect Bar® - Dark Chocolate Chip Peanut Butter.avif",
+                  image: "/products-images/Perfect Bar® - Dark Chocolate Chip Peanut Butter.avif",
                   calories: 320,
                   price: "$3.95",
                   link: "",
                 },
                 {
                   name: "Perfect Bar® Peanut Butter",
-                  image: "/SPerfect Bar® Peanut Butter.avif",
+                  image: "/products-images/SPerfect Bar® Peanut Butter.avif",
                   calories: 330,
                   price: "$3.95",
                   link: "",
                 },
                 {
                   name: "KIND® Salted Caramel & Dark Chocolate Nut Bar",
-                  image: "/KIND® Salted Caramel & Dark Chocolate Nut Bar.avif",
+                  image: "/products-images/KIND® Salted Caramel & Dark Chocolate Nut Bar.avif",
                   calories: 200,
                   price: "$2.25",
                   link: "",
@@ -4440,7 +4440,7 @@ export type Size = {
               products: [
                 {
                   name: "Avocado Spread",
-                  image: "/Avocado Spread.avif",
+                  image: "/products-images/Avocado Spread.avif",
                   calories: 90,
                   price: "$1.45",
                   link: "",
@@ -4458,7 +4458,7 @@ export type Size = {
       items: [
         {
           name: "Whole Bean",
-          image: "/Whole Bean.avif",
+          image: "/products-images/Whole Bean.avif",
           link: "whole-bean",
           subItems: [
             {
@@ -4466,21 +4466,21 @@ export type Size = {
               products: [
                 {
                   name: "Starbucks® Green Apron Blend™",
-                  image: "/Starbucks® Green Apron Blend™.avif",
+                  image: "/products-images/Starbucks® Green Apron Blend™.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
                 },
                 {
                   name: "VIA® Veranda Blend™",
-                  image: "/VIA® Veranda Blend™.avif",
+                  image: "/products-images/VIA® Veranda Blend™.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
                 },
                 {
                   name: "Starbucks® Blonde Espresso Roast",
-                  image: "/Starbucks® Blonde Espresso Roast.avif",
+                  image: "/products-images/Starbucks® Blonde Espresso Roast.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
@@ -4492,35 +4492,35 @@ export type Size = {
               products: [
                 {
                   name: "Starbucks Sirens Blend",
-                  image: "/Starbucks Siren’s Blend™.avif",
+                  image: "/products-images/Starbucks Siren’s Blend™.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
                 },
                 {
                   name: "Guatemala Antigua",
-                  image: "/Guatemala Antigua.avif",
+                  image: "/products-images/Guatemala Antigua.avif",
                   size: "1lb",
                   price: "$14.95",
                   link: "",
                 },
                 {
                   name: "Pike Place® Roast",
-                  image: "/Pike Place® Roast.avif",
+                  image: "/products-images/Pike Place® Roast.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
                 },
                 {
                   name: "Organic Yukon Blend®",
-                  image: "/Organic Yukon Blend®.avif",
+                  image: "/products-images/Organic Yukon Blend®.avif",
                   size: "1lb",
                   price: "$14.95",
                   link: "",
                 },
                 {
                   name: "Starbucks Odyssey Blend® 2024",
-                  image: "/Starbucks Odyssey Blend® 2024.avif",
+                  image: "/products-images/Starbucks Odyssey Blend® 2024.avif",
                   size: "1lb",
                   price: "$15.95",
                   link: "",
@@ -4532,49 +4532,49 @@ export type Size = {
               products: [
                 {
                   name: "Starbucks® Anniversary Blend 2024",
-                  image: "/Starbucks® Anniversary Blend 2024.avif",
+                  image: "/products-images/Starbucks® Anniversary Blend 2024.avif",
                   size: "1lb",
                   price: "$15.95",
                   link: "",
                 },
                 {
                   name: "Decaf Sumatra",
-                  image: "/Decaf Sumatra.avif",
+                  image: "/products-images/Decaf Sumatra.avif",
                   size: "1lb",
                   price: "$14.95",
                   link: "",
                 },
                 {
                   name: "Caffè Verona®",
-                  image: "/Caffè Verona®.avif",
+                  image: "/products-images/Caffè Verona®.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
                 },
                 {
                   name: "Espresso Roast",
-                  image: "/Espresso Roast.avif",
+                  image: "/products-images/Espresso Roast.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
                 },
                 {
                   name: "Italian Roast",
-                  image: "/Italian Roast.avif",
+                  image: "/products-images/Italian Roast.avif",
                   size: "1lb",
                   price: "$13.95",
                   link: "",
                 },
                 {
                   name: "Komodo Dragon Blend®",
-                  image: "/Komodo Dragon Blend®.avif",
+                  image: "/products-images/Komodo Dragon Blend®.avif",
                   size: "1lb",
                   price: "$14.95",
                   link: "",
                 },
                 {
                   name: "Sumatra",
-                  image: "/Sumatra.avif",
+                  image: "/products-images/Sumatra.avif",
                   size: "1lb",
                   price: "$14.95",
                   link: "",
@@ -4585,7 +4585,7 @@ export type Size = {
         },
         {
           name: "VIA® Instant",
-          image: "/VIA® Instant.avif",
+          image: "/products-images/VIA® Instant.avif",
           link: "via-instant",
           subItems: [
             {
@@ -4593,7 +4593,7 @@ export type Size = {
               products: [
                 {
                   name: "VIA® Sweetened Iced Coffee",
-                  image: "/VIA® Sweetened Iced Coffee.avif",
+                  image: "/products-images/VIA® Sweetened Iced Coffee.avif",
                   price: "$7.95",
                   link: "",
                 },
@@ -4604,7 +4604,7 @@ export type Size = {
               products: [
                 {
                   name: "VIA® Veranda Blend™",
-                  image: "/VIA® Veranda Blend™.avif",
+                  image: "/products-images/VIA® Veranda Blend™.avif",
                   price: "$11.95",
                   link: "",
                 },
@@ -4615,7 +4615,7 @@ export type Size = {
               products: [
                 {
                   name: "Starbucks VIA® Instant Pike Place® Roast",
-                  image: "/Starbucks VIA® Instant Pike Place® Roast.avif",
+                  image: "/products-images/Starbucks VIA® Instant Pike Place® Roast.avif",
                   price: "$11.95",
                   link: "",
                 },
@@ -4626,13 +4626,13 @@ export type Size = {
               products: [
                 {
                   name: "VIA® Italian Roast",
-                  image: "/VIA® Italian Roast.avif",
+                  image: "/products-images/VIA® Italian Roast.avif",
                   price: "$11.95",
                   link: "",
                 },
                 {
                   name: "VIA® Decaf Italian Roast",
-                  image: "/VIA® Decaf Italian Roast.avif",
+                  image: "/products-images/VIA® Decaf Italian Roast.avif",
                   price: "$12.95",
                   link: "",
                 },
@@ -4649,7 +4649,7 @@ export type Size = {
       items: [
         {
           name: "Cold Cups",
-          image: "/Cold Cups.avif",
+          image: "/products-images/Cold Cups.avif",
           link: "cold-cups",
           subItems: [
             {
@@ -4657,13 +4657,13 @@ export type Size = {
               products: [
                 {
                   name: "White Siren Bling Plastic Cold Cup - 16 fl oz",
-                  image: "/White Siren Bling Plastic Cold Cup - 16 fl oz.avif",
+                  image: "/products-images/White Siren Bling Plastic Cold Cup - 16 fl oz.avif",
                   price: "$19.95",
                   link: "",
                 },
                 {
                   name: "White Siren Bling Plastic Cold Cup - 24 fl oz",
-                  image: "/White Siren Bling Plastic Cold Cup - 24 fl oz.avif",
+                  image: "/products-images/White Siren Bling Plastic Cold Cup - 24 fl oz.avif",
                   price: "$22.95",
                   link: "",
                 },
@@ -4697,7 +4697,7 @@ export type Size = {
                 },
                 {
                   name: "Siren Logo Plastic Cold Cup - 24 fl oz",
-                  image: "/Siren Logo Plastic Cold Cup - 24 fl oz.avif",
+                  image: "/products-images/Siren Logo Plastic Cold Cup - 24 fl oz.avif",
                   price: "$14.95",
                   link: "",
                 },
@@ -4707,7 +4707,7 @@ export type Size = {
         },
         {
           name: "Tumblers",
-          image: "/Tumblers.avif",
+          image: "/products-images/Tumblers.avif",
           link: "tumblers",
           subItems: [
             {
@@ -4715,7 +4715,7 @@ export type Size = {
               products: [
                 {
                   name: "Siren Logo Plastic Hot Cup - 16 fl oz",
-                  image: "/Tumblers.avif",
+                  image: "/products-images/Tumblers.avif",
                   price: "$2.00",
                   link: "",
                 },
@@ -4725,7 +4725,7 @@ export type Size = {
         },
         {
           name: "Mugs",
-          image: "/Mugs.avif",
+          image: "/products-images/Mugs.avif",
           link: "mugs",
           subItems: [
             {
@@ -4733,7 +4733,7 @@ export type Size = {
               products: [
                 {
                   name: "Glass Mug - 16 fl oz",
-                  image: "/Mugs.avif",
+                  image: "/products-images/Mugs.avif",
                   price: "$16.95",
                   link: "",
                 },
@@ -4743,7 +4743,7 @@ export type Size = {
         },
         {
           name: "Water Bottles",
-          image: "/Water Bottles.avif",
+          image: "/products-images/Water Bottles.avif",
           link: "water-bottles",
           subItems: [
             {
@@ -4751,7 +4751,7 @@ export type Size = {
               products: [
                 {
                   name: "Twist to Sip Stainless-Steel Water Bottle - 20 fl oz",
-                  image: "/Water Bottles.avif",
+                  image: "/products-images/Water Bottles.avif",
                   price: "$32.95",
                   link: "",
                 },
@@ -4761,7 +4761,7 @@ export type Size = {
         },
         {
           name: "Other",
-          image: "/Other.avif",
+          image: "/products-images/Other.avif",
           link: "other",
           subItems: [
             {
@@ -4769,19 +4769,19 @@ export type Size = {
               products: [
                 {
                   name: "French Press",
-                  image: "/Other.avif",
+                  image: "/products-images/Other.avif",
                   price: "$24.95",
                   link: "",
                 },
                 {
                   name: "Pour Over",
-                  image: "/Pour Over.avif",
+                  image: "/products-images/Pour Over.avif",
                   price: "$17.95",
                   link: "",
                 },
                 {
                   name: "Small Shopping Bag",
-                  image: "/Small Shopping Bag.avif",
+                  image: "/products-images/Small Shopping Bag.avif",
                   price: "$0.00",
                   link: "",
                 },

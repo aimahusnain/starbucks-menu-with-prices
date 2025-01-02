@@ -141,7 +141,7 @@ const HeroSection = () => {
     <div className="lg:hidden block w-full">
       <div className="relative px-4 sm:px-6 py-6 sm:py-10">
         <div className="absolute top-0 left-0 w-64 h-64 bg-orange-300/40 dark:bg-orange-400/20 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-0 w-64 h-64 bg-[#C0E8A6]/40 dark:bg-green-400/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-0 w-64 h-64 bg-[#C0E8A6]/40 dark:bg-[#0C7656] rounded-full blur-3xl" />
 
         <header className="relative z-20 text-center">
           <h1 className="font-bold text-zinc-900 dark:text-zinc-50 mb-4 text-3xl sm:text-4xl">
@@ -154,8 +154,8 @@ const HeroSection = () => {
 
           <Link href="/menu">
             <Button
-              className="bg-transparent border-2 text-green-400 border-green-400 hover:bg-green-400/10 
-              dark:hover:bg-green-400/20 w-full sm:w-[200px] rounded-full py-5 font-semibold"
+              className="bg-transparent border-2 text-[#0C7656] border-[#0C7656] hover:bg-[#0C7656]/10 
+              dark:hover:bg-[#0C7656] w-full sm:w-[200px] rounded-full py-5 font-semibold"
             >
               View Full Menu
             </Button>
@@ -169,7 +169,7 @@ const HeroSection = () => {
               href={`/${convertNameToLink(selectedCategory.name)}/${convertNameToLink(selectedProduct.name)}`}
               className="relative group"
             >
-              <div className="absolute inset-0 bg-green-400/20 rounded-full blur-xl group-hover:bg-green-400/30 
+              <div className="absolute inset-0 bg-[#0C7656] rounded-full blur-xl group-hover:bg-[#0C7656]/30 
                 transition-all duration-300 scale-90 group-hover:scale-100" />
               <Image
                 className="rounded-full w-56 h-56 sm:w-72 sm:h-72 object-cover relative z-10 
@@ -197,9 +197,9 @@ const HeroSection = () => {
               <Link 
                 href={`/${convertNameToLink(selectedCategory.name)}/${convertNameToLink(selectedProduct.name)}`}
               >
-                <Button className="bg-green-400 hover:bg-green-500 text-white rounded-full 
+                <Button className="bg-[#0C7656] hover:bg-green-500 text-white rounded-full 
                   px-8 py-6 font-semibold text-base transition-all duration-300 
-                  hover:shadow-lg hover:shadow-green-400/20">
+                  hover:shadow-lg hover:shadow-[#0C7656]/20">
                   View Price & Calories
                 </Button>
               </Link>
@@ -218,8 +218,8 @@ const HeroSection = () => {
                   <div className={`
                     rounded-2xl p-2 transition-all duration-300
                     ${product === selectedProduct 
-                      ? 'bg-green-400 shadow-lg shadow-green-400/20' 
-                      : 'bg-zinc-100 dark:bg-zinc-800 hover:bg-green-400/10'}
+                      ? 'bg-[#0C7656] shadow-lg shadow-[#0C7656]/20' 
+                      : 'bg-zinc-100 dark:bg-zinc-800 hover:bg-[#0C7656]/10'}
                   `}>
                     <Image
                       className="rounded-xl w-full h-auto aspect-square object-cover"
@@ -260,7 +260,7 @@ const HeroSection = () => {
             </p>
             <Button
               id="Menu"
-              className="bg-transparent border-4 text-green-400 border-green-400 hover:bg-green-400/10 dark:hover:bg-green-400/20 w-full sm:w-[11rem] rounded-full duration-500 transition-all mt-4 lg:mt-8"
+              className="bg-transparent border-4 text-[#0C7656] border-[#0C7656] hover:bg-[#0C7656]/10 dark:hover:bg-[#0C7656] w-full sm:w-[11rem] rounded-full duration-500 transition-all mt-4 lg:mt-8"
             >
               View Full Menu
             </Button>
@@ -272,7 +272,7 @@ const HeroSection = () => {
             <div className="ml-0 md:mt-0 mt-5 md:ml-6">
               <Link href={`/${categoryLink}/${link}`}>
                 <Image
-                  className="rounded-full max-w-[200px] md:max-w-[280px] shadow-glow shadow-green-400 dark:shadow-green-500"
+                  className="rounded-full max-w-[200px] md:max-w-[280px] shadow-glow shadow-[#0C7656] dark:shadow-green-500"
                   src={`/products-images${selectedProduct.image}`}
                   alt={`${selectedProduct.name} Image`}
                   width={425}
@@ -290,7 +290,7 @@ const HeroSection = () => {
               </Link>
               <div className="flex flex-col gap-2">
                 <Link href={`/${categoryLink}/${link}`}>
-                  <Button className="bg-green-400 hover:bg-green-400/90 text-white rounded-full duration-500 transition-all text-sm lg:text-base">
+                  <Button className="bg-[#0C7656] hover:bg-[#0C7656]/90 text-white rounded-full duration-500 transition-all text-sm lg:text-base">
                     View Price & Calories
                   </Button>
                 </Link>
@@ -303,7 +303,7 @@ const HeroSection = () => {
               onClick={handlePreviousSlide}
               className={`mb-2 ${
                 canScrollPrev
-                  ? "bg-green-400 hover:bg-green-400/90"
+                  ? "bg-[#0C7656] hover:bg-[#0C7656]/90"
                   : "bg-zinc-300 dark:bg-zinc-600"
               } rounded-full`}
               disabled={!canScrollPrev}
@@ -339,7 +339,7 @@ const HeroSection = () => {
                         onClick={() => handleProductClick(product, index)}
                         className={`${
                           product === selectedProduct
-                            ? "bg-green-400 text-white"
+                            ? "bg-[#0C7656] text-white"
                             : "bg-white dark:bg-zinc-700 dark:text-zinc-100"
                         } w-full text-left text-sm lg:text-xl shadow-lg flex gap-2 lg:gap-3 rounded-r items-center rounded-full px-2 lg:px-4 py-1 lg:py-2`}
                       >
@@ -363,7 +363,7 @@ const HeroSection = () => {
               onClick={handleNextSlide}
               className={`mt-4 ${
                 canScrollNext
-                  ? "bg-green-400 hover:bg-green-400/90"
+                  ? "bg-[#0C7656] hover:bg-[#0C7656]/90"
                   : "bg-zinc-300 dark:bg-zinc-600"
               } rounded-full`}
               disabled={!canScrollNext}
@@ -375,8 +375,8 @@ const HeroSection = () => {
           {/* Decorative blurs */}
           <div className="w-[300px] absolute -left-[13rem] bottom-4 h-[300px] bg-orange-300/60 dark:bg-orange-400/30 rounded-full blur-3xl" />
           <div className="w-[300px] absolute -left-[13rem] top-4  h-[100px] bg-orange-300/60 dark:bg-orange-400/30 rounded-full blur-3xl" />
-          <div className="w-[400px] absolute right-4 -bottom-32 h-[307px] bg-[#C0E8A6]/60 dark:bg-green-400/20 rounded-full blur-2xl" />
-          <div className="w-[300px] absolute -right-[11rem] top-[40px] h-[207px] bg-[#C0E8A6]/60 dark:bg-green-400/20 rounded-full blur-2xl" />
+          <div className="w-[400px] absolute right-4 -bottom-32 h-[307px] bg-[#C0E8A6]/60 dark:bg-[#0C7656] rounded-full blur-2xl" />
+          <div className="w-[300px] absolute -right-[11rem] top-[40px] h-[207px] bg-[#C0E8A6]/60 dark:bg-[#0C7656] rounded-full blur-2xl" />
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import BlogCard from "@/components/BlogCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Pagination from "@/components/Pagination";
-import config from "@/config/config.json";
+import config from "@/config/config";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { getActiveLanguages, getLanguageObj } from "@/lib/languageParser";
 import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser";

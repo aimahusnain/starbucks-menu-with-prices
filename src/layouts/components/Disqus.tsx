@@ -1,6 +1,6 @@
 "use client";
 
-import config from "@/config/config.json";
+import config from "@/config/config";
 import { DiscussionEmbed } from "disqus-react";
 import { useTheme } from "next-themes";
 

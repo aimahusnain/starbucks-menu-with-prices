@@ -1,4 +1,4 @@
-import config from "@/config/config.json";
+import config from "@/config/config";
 import ImageFallback from "@/helpers/ImageFallback";
 import { getTranslations } from "@/lib/languageParser";
 import dateFormat from "@/lib/utils/dateFormat";
