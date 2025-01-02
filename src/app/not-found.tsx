@@ -44,7 +44,7 @@ export default function NotFound() {
             </div>
           </section>
         </main>
-        <Footer lang={lang} menu={{ footer: footer || [] }} />
+        <Footer  />
       </Providers>
     </>
   );
