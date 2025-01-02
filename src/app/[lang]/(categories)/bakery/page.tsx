@@ -1,8 +1,8 @@
 import CategoryPageComponent from "@/components/Category/CategoryPageComponent";
+import { siteMetadata } from "@/config/config";
 import { Metadata } from "next";
+import Head from "next/head";
 import React from "react";
-import { siteMetadata } from '../../../config/config'
-
 
 export const metadata: Metadata = {
   title: `${siteMetadata.title} - Bakery`,
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 };
 
 const Bakery = () => {
-  return (<div>
-
+  return (
+  <div>
     <CategoryPageComponent name="Bakery" link="/bakery" />
   </div>);
 };
