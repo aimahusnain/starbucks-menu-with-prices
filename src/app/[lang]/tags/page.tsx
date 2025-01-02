@@ -1,5 +1,5 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
-import config from "@/config/config";
+import config from "@/config/config.json";
 import {
   getActiveLanguages,
   getLanguageObj,

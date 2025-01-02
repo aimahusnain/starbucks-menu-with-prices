@@ -1,7 +1,7 @@
 import CategoryPageComponent from "@/components/Category/CategoryPageComponent";
 import { Metadata } from "next";
 import React from "react";
-import { siteMetadata } from '../../config/config'
+import { siteMetadata } from '../../../config/config'
 
 
 export const metadata: Metadata = {

@@ -1,4 +1,4 @@
-import config from "@/config/config";
+import config from "@/config/config.json";
 import { getTranslations } from "@/lib/languageParser";
 import { slugSelector } from "@/lib/utils/slugSelector";
 import { humanize } from "@/lib/utils/textConverter";

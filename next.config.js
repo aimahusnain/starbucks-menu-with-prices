@@ -1,4 +1,4 @@
-const config = require("./src/config/config.json");
+const config = require("./src/config/config");
 const languages = require("./src/config/language.json");
 const disableLanguages = config.settings.disable_languages;
 const activeLanguages = languages.filter(

@@ -44,7 +44,7 @@ const SeoMeta = ({
         content={plainify(description ? description : meta_description)}
       />
 
-      {/* author from config.json */}
+      {/* author from config */}
       <meta name="author" content={meta_author} />
 
       {/* og-title */}
