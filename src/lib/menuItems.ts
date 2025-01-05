@@ -37,7 +37,7 @@ export type Size = {
               products: [
                 {
                   name: "Caffè Americano",
-                  image: "/caffe-americano.avif",
+                  image: "/to.avif",
                   link: "caffe-americano",
                   sizes: [
                     {
@@ -73,7 +73,7 @@ export type Size = {
               products: [
                 {
                   name: "Veranda Blend® Clover Vertica™",
-                  image: "/verdana-blend-clover-verica.avif",
+                  image: "/to.avif",
                   link: "veranda-blend-clover-vertica",
                   sizes: [
                     {
